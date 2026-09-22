@@ -443,7 +443,7 @@
           "url": "https://finance.ifeng.com/c/8tzPjLIGAof",
           "published_date": "2026-06-15",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_wolong_supplier.md#关键事实",
+          "evidence_locator": "文章《卧龙电驱：闷声发财》；页面内检索‘无框力矩电机’与‘宇树’",
           "origin_id": "https://finance.ifeng.com/c/8tzPjLIGAof",
           "note": "本地研究摘要：data/raw/media_wolong_supplier.md#关键事实"
         },
@@ -453,7 +453,7 @@
           "url": "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html",
           "published_date": "2026-02-01",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_wolong_supplier.md#关键事实",
+          "evidence_locator": "文章《春晚“机器人天团”刷屏，它们的“肌肉”和“关节”来自何方？》；页面内检索‘无框力矩电机’与‘宇树科技’",
           "origin_id": "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html",
           "note": "本地研究摘要：data/raw/media_wolong_supplier.md#关键事实"
         }
@@ -493,7 +493,7 @@
           "url": "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html",
           "published_date": "2025-02-22",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_supplier_weak.md#长盛轴承",
+          "evidence_locator": "文章《七倍大牛股长盛轴承的人形机器人狂想曲》；页面内检索‘签订合作协议’与‘不足1%’",
           "origin_id": "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html",
           "note": "本地研究摘要：data/raw/media_supplier_weak.md#长盛轴承"
         }
@@ -535,7 +535,7 @@
           "url": "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml",
           "published_date": "2025-02-17",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_supplier_weak.md#金发科技-二级梳理",
+          "evidence_locator": "文章《A股有了一条叫“宇树”的人形机器人产业链》；页面内检索‘金发科技’；该文仅支持产业链候选线索",
           "origin_id": "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml",
           "note": "本地研究摘要：data/raw/media_supplier_weak.md#金发科技-二级梳理"
         }
@@ -578,7 +578,7 @@
           "url": "https://finance.eastmoney.com/a/202507123455289035.html",
           "published_date": "2025-07-12",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#中国移动",
+          "evidence_locator": "东方财富文章 ID 202507123455289035；页面内检索‘中移（杭州）’与‘4605万元’；正文依赖动态加载，正式合同额以同关系招股书 p.273 为准",
           "origin_id": "https://finance.eastmoney.com/a/202507123455289035.html",
           "note": "本地研究摘要：data/raw/caixin_customer.md#中国移动"
         },
@@ -625,11 +625,11 @@
         {
           "source_type": "authoritative_media",
           "source_name": "人民网辽宁频道",
-          "url": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+          "url": "http://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
           "published_date": "2026-02-05",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#国家电网体系",
-          "origin_id": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+          "evidence_locator": "文章《国网铁岭供电“数字新员工”上岗》；页面内检索‘这批智能设备由宇树科技研发’与‘变电站自主巡检’",
+          "origin_id": "http://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
           "note": "本地研究摘要：data/raw/caixin_customer.md#国家电网体系"
         }
       ],
@@ -712,7 +712,7 @@
           "url": "https://www.eeo.com.cn/2026/0115/779669.shtml",
           "published_date": "2026-01-15",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#华电",
+          "evidence_locator": "文章《宇树科技中标华电电力科研院人形巡检机器人项目》；页面内检索‘宁夏公司无人值守场站人形巡检机器人’",
           "origin_id": "https://www.eeo.com.cn/2026/0115/779669.shtml",
           "note": "本地研究摘要：data/raw/caixin_customer.md#华电"
         }
@@ -794,7 +794,7 @@
           "url": "https://www.stcn.com/article/detail/1467261.html",
           "published_date": "2024-12-25",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-历史口径",
+          "evidence_locator": "文章《朗科智能：间接持有宇树科技约0.05%股权 对其无重大影响》；页面内检索‘0.0458%’",
           "origin_id": "https://www.stcn.com/article/detail/1467261.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-历史口径"
         },
@@ -804,7 +804,7 @@
           "url": "https://www.stcn.com/article/detail/4070279.html",
           "published_date": "2026-08-11",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-最新口径",
+          "evidence_locator": "文章《朗科智能：公司间接持有宇树科技的股份比例约为0.0379%》；页面内检索‘0.0379%’与‘暂无其他业务合作’",
           "origin_id": "https://www.stcn.com/article/detail/4070279.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-最新口径"
         }
@@ -844,7 +844,7 @@
           "url": "https://www.stcn.com/article/detail/1535518.html",
           "published_date": "2025-02-20",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#金发科技",
+          "evidence_locator": "文章《2连板牛股，披露持有宇树科技股权比例！》；页面内检索‘金石成长’与‘0.42%’",
           "origin_id": "https://www.stcn.com/article/detail/1535518.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#金发科技"
         }
@@ -886,7 +886,7 @@
           "url": "https://www.stcn.com/article/detail/2659309.html",
           "published_date": "2025-07-21",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#卧龙电驱",
+          "evidence_locator": "文章《宇树科技启动IPO，参股公司曝光！杠杆资金盯上这10只绩优股》；页面内检索‘卧龙电驱、金发科技均通过金石成长’",
           "origin_id": "https://www.stcn.com/article/detail/2659309.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#卧龙电驱"
         }
@@ -928,7 +928,7 @@
           "url": "https://www.stcn.com/article/detail/1512508.html",
           "published_date": "2025-01-29",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#深信服",
+          "evidence_locator": "文章《宇树科技机器人上春晚消息刷屏 多家上市公司间接持股宇树科技或有业务合作》；页面内检索‘深信服’与‘有限合伙人’",
           "origin_id": "https://www.stcn.com/article/detail/1512508.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#深信服"
         }
@@ -970,7 +970,7 @@
           "url": "https://www.stcn.com/article/detail/1559321.html",
           "published_date": "2025-03-03",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#中科创达",
+          "evidence_locator": "文章《中科创达：公司目前和宇树科技暂无业务合作 间接持股比例较低》；页面内检索‘6.7797%’与‘0.2925%’",
           "origin_id": "https://www.stcn.com/article/detail/1559321.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#中科创达"
         }
@@ -1012,7 +1012,7 @@
           "url": "https://www.stcn.com/article/detail/1469072.html",
           "published_date": "2024-12-26",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#吉华集团",
+          "evidence_locator": "文章《三连板吉华集团：未来宇树科技对公司直接影响较小》；页面内检索‘0.02%股权’与‘不存在任何合作关系’",
           "origin_id": "https://www.stcn.com/article/detail/1469072.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#吉华集团"
         }
@@ -1054,7 +1054,7 @@
           "url": "https://www.stcn.com/article/detail/2763758.html",
           "published_date": "2025-07-27",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#中际旭创",
+          "evidence_locator": "文章《中际旭创：参投的基金持有部分宇树科技股份》；页面内检索同名标题短语",
           "origin_id": "https://www.stcn.com/article/detail/2763758.html",
           "note": "本地研究摘要：data/raw/media_investor_indirect.md#中际旭创"
         }
@@ -1506,7 +1506,7 @@
           "url": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
           "published_date": "2026-06-01",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia",
+          "evidence_locator": "文章《NVIDIA, Unitree unveil new humanoid powered by Isaac GR00T》；页面内检索‘strategic partnership’与‘Isaac GR00T’",
           "origin_id": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
           "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia"
         },
@@ -1516,7 +1516,7 @@
           "url": "https://www.unitree.com/cn/H2plus/",
           "published_date": "2026-06-01",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia",
+          "evidence_locator": "H2 Plus 产品页；检索‘Jetson Thor’与‘Isaac GR00T’",
           "origin_id": "https://www.unitree.com/cn/H2plus/",
           "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia"
         }
@@ -1593,11 +1593,11 @@
         {
           "source_type": "authoritative_media",
           "source_name": "人民网天津频道",
-          "url": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+          "url": "http://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
           "published_date": "2026-05-27",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#tianjin",
-          "origin_id": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+          "evidence_locator": "文章《宇树科技与天津市签署合作协议 开展具身智能联合创新应用深度合作》；页面内检索‘签署合作协议’与‘具身智能’",
+          "origin_id": "http://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
           "note": "本地研究摘要：data/raw/partner_government.md#tianjin"
         }
       ],
@@ -1635,11 +1635,11 @@
         {
           "source_type": "authoritative_media",
           "source_name": "人民网四川频道",
-          "url": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+          "url": "http://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
           "published_date": "2026-07-25",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#chengdu",
-          "origin_id": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+          "evidence_locator": "文章《成都市与宇树科技签署战略合作协议》；页面内检索‘战略合作协议’与‘产教融合’",
+          "origin_id": "http://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
           "note": "本地研究摘要：data/raw/partner_government.md#chengdu"
         }
       ],
@@ -1680,7 +1680,7 @@
           "url": "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml",
           "published_date": "2026-09-03",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#changchun",
+          "evidence_locator": "文章《长春净月高新区正式“牵手”宇树科技，开启政企合作发展新篇章》；页面内检索‘战略合作协议’与‘长春净月高新区’",
           "origin_id": "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml",
           "note": "本地研究摘要：data/raw/partner_government.md#changchun"
         }
@@ -1722,7 +1722,7 @@
           "url": "https://github.com/google-deepmind/mujoco_playground",
           "published_date": "2025-01-15",
           "retrieved_date": "2026-09-22",
-          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepmind-official",
+          "evidence_locator": "GitHub 仓库目录 mujoco_playground/_src/locomotion/g1；检索路径‘/locomotion/g1’；仅支持 Unitree G1 技术生态关联",
           "origin_id": "https://github.com/google-deepmind/mujoco_playground",
           "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepmind-official"
         }

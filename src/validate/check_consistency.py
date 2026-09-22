@@ -14,6 +14,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+
+from evidence_locator import is_specific_locator  # noqa: E402
+
 DATA = ROOT / "data"
 ENT_PATH = DATA / "entities.json"
 REL_PATH = RELATIONS_JSON = DATA / "relations.json"
@@ -34,8 +38,11 @@ def check_evidence_present(rels):
             bad.append(r["relationship_id"] + " 无 evidence")
             continue
         for e in r["evidence"]:
-            if not e.get("evidence_locator"):
+            locator = e.get("evidence_locator")
+            if not locator:
                 bad.append(r["relationship_id"] + " 存在空 evidence_locator")
+            elif not is_specific_locator(locator):
+                bad.append(r["relationship_id"] + f" locator 不可执行: {locator}")
     return bad
 
 
@@ -157,7 +164,7 @@ def check_dual_role_cases(rels):
 
 
 CHECKS = [
-    ("证据链完整（每条关系≥1证据且 locator 非空）", check_evidence_present),
+    ("证据链完整（每条关系≥1证据且 locator 可执行）", check_evidence_present),
     ("方向正确（subject 恒为宇树，无自环）", check_direction),
     ("事实、证据支持与业务分层语义一致", check_claim_semantics),
     ("验证标记与证据状态一致", check_validation_flag),

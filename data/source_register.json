@@ -69,19 +69,19 @@
       "source_type": "authoritative_media",
       "url": "https://finance.eastmoney.com/a/202507123455289035.html",
       "published_date": "2025-07-12",
-      "verification_status": "verified_exact",
+      "verification_status": "verified_exact_dynamic_rendering",
       "scope": "chinamobile_customer",
-      "note": "报道中国移动旗下中移（杭州）采购项目中，宇树中标小尺寸人形机器人等标包，预算 4605 万元。"
+      "note": "报道中国移动旗下中移（杭州）采购项目中，宇树中标小尺寸人形机器人等标包，预算 4605 万元。当前桌面页正文依赖前端动态加载；该来源仅作中标线索，正式合同对象与金额以宇树招股书 p.273 为准。"
     },
     {
       "source_id": "src.people.stategrid.20260205",
       "publisher": "人民网辽宁频道",
       "source_type": "authoritative_media",
-      "url": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+      "url": "http://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
       "published_date": "2026-02-05",
-      "verification_status": "verified_exact",
+      "verification_status": "verified_exact_http_only",
       "scope": "stategrid_customer",
-      "note": "报道国家电网体系的铁岭供电公司使用宇树设备开展营业厅服务和变电站巡检；数据集将对象保留为国家电网体系并限定事实范围。"
+      "note": "报道国家电网体系的铁岭供电公司使用宇树设备开展营业厅服务和变电站巡检；数据集将对象保留为国家电网体系并限定事实范围。同路径 HTTPS 存在证书域名不匹配，标准客户端无法验证；HTTP 原文公开可访问，未绕过访问控制。"
     },
     {
       "source_id": "src.chinatower.bid.20250801",
@@ -157,21 +157,21 @@
       "source_id": "src.people.tianjin.20260527",
       "publisher": "人民网天津频道",
       "source_type": "authoritative_media",
-      "url": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+      "url": "http://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
       "published_date": "2026-05-27",
-      "verification_status": "verified_exact",
+      "verification_status": "verified_exact_http_only",
       "scope": "tianjin_partner",
-      "note": "报道宇树与天津市政府、天津经开区签署战略合作协议。"
+      "note": "报道宇树与天津市政府、天津经开区签署战略合作协议。同路径 HTTPS 存在证书域名不匹配，标准客户端无法验证；HTTP 原文公开可访问，未绕过访问控制。"
     },
     {
       "source_id": "src.people.chengdu.20260725",
       "publisher": "人民网四川频道",
       "source_type": "authoritative_media",
-      "url": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+      "url": "http://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
       "published_date": "2026-07-25",
-      "verification_status": "verified_exact",
+      "verification_status": "verified_exact_http_only",
       "scope": "chengdu_partner",
-      "note": "报道成都市人民政府与宇树签署战略合作协议及合作方向。"
+      "note": "报道成都市人民政府与宇树签署战略合作协议及合作方向。同路径 HTTPS 存在证书域名不匹配，标准客户端无法验证；HTTP 原文公开可访问，未绕过访问控制。"
     },
     {
       "source_id": "src.sina.changchun.20260903",

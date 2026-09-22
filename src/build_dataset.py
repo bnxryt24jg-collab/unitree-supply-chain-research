@@ -27,6 +27,7 @@ from schema import (
     Uncertainty,
 )
 from scoring import AS_OF, score_relationship
+from evidence_locator import is_specific_locator
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -86,6 +87,30 @@ ENTITIES = {
 
 
 RAW = "data/raw"
+
+WEB_LOCATORS = {
+    "https://finance.ifeng.com/c/8tzPjLIGAof": "文章《卧龙电驱：闷声发财》；页面内检索‘无框力矩电机’与‘宇树’",
+    "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html": "文章《春晚“机器人天团”刷屏，它们的“肌肉”和“关节”来自何方？》；页面内检索‘无框力矩电机’与‘宇树科技’",
+    "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html": "文章《七倍大牛股长盛轴承的人形机器人狂想曲》；页面内检索‘签订合作协议’与‘不足1%’",
+    "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml": "文章《A股有了一条叫“宇树”的人形机器人产业链》；页面内检索‘金发科技’；该文仅支持产业链候选线索",
+    "https://finance.eastmoney.com/a/202507123455289035.html": "东方财富文章 ID 202507123455289035；页面内检索‘中移（杭州）’与‘4605万元’；正文依赖动态加载，正式合同额以同关系招股书 p.273 为准",
+    "http://ln.people.com.cn/n2/2026/0205/c400024-41494376.html": "文章《国网铁岭供电“数字新员工”上岗》；页面内检索‘这批智能设备由宇树科技研发’与‘变电站自主巡检’",
+    "https://www.eeo.com.cn/2026/0115/779669.shtml": "文章《宇树科技中标华电电力科研院人形巡检机器人项目》；页面内检索‘宁夏公司无人值守场站人形巡检机器人’",
+    "https://www.stcn.com/article/detail/1467261.html": "文章《朗科智能：间接持有宇树科技约0.05%股权 对其无重大影响》；页面内检索‘0.0458%’",
+    "https://www.stcn.com/article/detail/4070279.html": "文章《朗科智能：公司间接持有宇树科技的股份比例约为0.0379%》；页面内检索‘0.0379%’与‘暂无其他业务合作’",
+    "https://www.stcn.com/article/detail/1535518.html": "文章《2连板牛股，披露持有宇树科技股权比例！》；页面内检索‘金石成长’与‘0.42%’",
+    "https://www.stcn.com/article/detail/2659309.html": "文章《宇树科技启动IPO，参股公司曝光！杠杆资金盯上这10只绩优股》；页面内检索‘卧龙电驱、金发科技均通过金石成长’",
+    "https://www.stcn.com/article/detail/1512508.html": "文章《宇树科技机器人上春晚消息刷屏 多家上市公司间接持股宇树科技或有业务合作》；页面内检索‘深信服’与‘有限合伙人’",
+    "https://www.stcn.com/article/detail/1559321.html": "文章《中科创达：公司目前和宇树科技暂无业务合作 间接持股比例较低》；页面内检索‘6.7797%’与‘0.2925%’",
+    "https://www.stcn.com/article/detail/1469072.html": "文章《三连板吉华集团：未来宇树科技对公司直接影响较小》；页面内检索‘0.02%股权’与‘不存在任何合作关系’",
+    "https://www.stcn.com/article/detail/2763758.html": "文章《中际旭创：参投的基金持有部分宇树科技股份》；页面内检索同名标题短语",
+    "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html": "文章《NVIDIA, Unitree unveil new humanoid powered by Isaac GR00T》；页面内检索‘strategic partnership’与‘Isaac GR00T’",
+    "https://www.unitree.com/cn/H2plus/": "H2 Plus 产品页；检索‘Jetson Thor’与‘Isaac GR00T’",
+    "http://tj.people.com.cn/n2/2026/0527/c375366-41593167.html": "文章《宇树科技与天津市签署合作协议 开展具身智能联合创新应用深度合作》；页面内检索‘签署合作协议’与‘具身智能’",
+    "http://sc.people.com.cn/n2/2026/0725/c345167-41649738.html": "文章《成都市与宇树科技签署战略合作协议》；页面内检索‘战略合作协议’与‘产教融合’",
+    "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml": "文章《长春净月高新区正式“牵手”宇树科技，开启政企合作发展新篇章》；页面内检索‘战略合作协议’与‘长春净月高新区’",
+    "https://github.com/google-deepmind/mujoco_playground": "GitHub 仓库目录 mujoco_playground/_src/locomotion/g1；检索路径‘/locomotion/g1’；仅支持 Unitree G1 技术生态关联",
+}
 
 CANDIDATES = {
     "r-green-harmonic", "r-mingzhi", "r-orbbec", "r-beite", "r-bester",
@@ -159,8 +184,12 @@ def ev(source_type: SourceType, name: str, url: str, pub: str, loc: str) -> Evid
     elif "港交所" in name:
         name = "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）"
         locator = "PDF同业及竞争格局相关章节；按公司名称检索"
+    elif url in WEB_LOCATORS:
+        locator = WEB_LOCATORS[url]
     else:
-        locator = f"页面正文；本地研究摘要：{loc}"
+        raise ValueError(f"缺少精确 evidence locator：{name} {url}")
+    if not is_specific_locator(locator):
+        raise ValueError(f"evidence locator 不可执行：{name} {locator}")
     return EvidenceRef(
         source_type=source_type,
         source_name=name,
@@ -297,7 +326,7 @@ RELATIONS = [
          ev(SourceType.PRIMARY_REGULATORY, "宇树科技招股说明书（上会稿）", CNINFO, "2026-05-25", f"{REL}#客户")],
         start=date(2025, 7, 11)),
     rel("r-stategrid", RelationType.CUSTOMER, "STATE.国家电网", Status.FACT, True, "国网铁岭供电公司使用宇树机器人开展营业厅服务和变电站巡检",
-        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网辽宁频道", "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html", "2026-02-05", f"{CUST}#国家电网体系")],
+        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网辽宁频道", "http://ln.people.com.cn/n2/2026/0205/c400024-41494376.html", "2026-02-05", f"{CUST}#国家电网体系")],
         start=date(2026, 1, 1)),
     rel("r-chinatelecom-tower", RelationType.CUSTOMER, "HK.00788", Status.UNKNOWN, False, "中国铁塔曾公开采购四足机器人，宇树参与投标但响应被否；当前不能确认已形成客户关系",
         [ev(SourceType.AUTHORITATIVE_MEDIA, "中国铁塔电子采购平台", "https://ebid.chinatowercom.cn/zgtt/gggs/003004/20250801/db82d15d-b1fd-4075-aea8-59cd40e31f80.html", "2025-08-01", f"{CUST}#中国铁塔-投标边界")],
@@ -370,10 +399,10 @@ RELATIONS = [
         [ev(SourceType.PRIMARY_OFFICIAL, "上海证券报·中国证券网 IPO 路演", "https://roadshow.cnstock.com/ipo/688836", "2026-08-07", f"{PARTNER_TECH}#deepseek")],
         start=date(2026, 8, 7)),
     rel("r-tianjin-partner", RelationType.PARTNER, "GOV.天津市", Status.FACT, False, "宇树与天津市/天津经开区签署战略合作协议，聚焦具身智能场景落地（安防巡检、消防救援、工业运维等）",
-        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网天津频道", "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html", "2026-05-27", f"{PARTNER_GOV}#tianjin")],
+        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网天津频道", "http://tj.people.com.cn/n2/2026/0527/c375366-41593167.html", "2026-05-27", f"{PARTNER_GOV}#tianjin")],
         start=date(2026, 5, 27)),
     rel("r-chengdu-partner", RelationType.PARTNER, "GOV.成都市", Status.FACT, False, "宇树与成都市签署战略合作协议，在具身智能研发、场景创新、数据采集、产教融合等方面全方位合作",
-        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网四川频道", "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html", "2026-07-25", f"{PARTNER_GOV}#chengdu")],
+        [ev(SourceType.AUTHORITATIVE_MEDIA, "人民网四川频道", "http://sc.people.com.cn/n2/2026/0725/c345167-41649738.html", "2026-07-25", f"{PARTNER_GOV}#chengdu")],
         start=date(2026, 7, 24)),
     rel("r-changchun-partner", RelationType.PARTNER, "GOV.长春净月高新区", Status.FACT, False, "宇树与长春净月高新区签署战略合作协议，共建 AI 教育示范区、具身智能数据采集中心等",
         [ev(SourceType.AUTHORITATIVE_MEDIA, "新浪财经（来源：机器人全球资讯）", "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml", "2026-09-03", f"{PARTNER_GOV}#changchun")],

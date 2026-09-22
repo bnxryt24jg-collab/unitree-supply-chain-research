@@ -9,6 +9,8 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 
+from evidence_locator import is_specific_locator
+
 ROOT = Path(__file__).resolve().parent.parent
 REL_PATH = ROOT / "data" / "relations.json"
 SOURCE_REGISTER_PATH = ROOT / "data" / "source_register.json"
@@ -75,7 +77,7 @@ def build() -> dict:
                 "retrieved_date": evidence.get("retrieved_date"),
                 "origin_id": evidence.get("origin_id"),
                 "evidence_locator": locator,
-                "locator_specific": any(token in locator for token in ("p.", "pp.", "表", "检索", "正文", "章节", "公告")),
+                "locator_specific": is_specific_locator(locator),
                 "local_research_note": local_path,
                 "local_fragment": local_fragment,
                 "local_research_note_exists": local_exists,

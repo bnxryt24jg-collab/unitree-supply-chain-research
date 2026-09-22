@@ -38,7 +38,16 @@ def test_manifest_separates_traceability_from_claim_review():
     candidates = [r for r in manifest["evidence"] if r["claim_support"] == "unsupported"]
     assert len(candidates) == 13
     assert all(r["content_review_status"] == "candidate_only_not_supported" for r in candidates)
-    assert manifest["summary"]["specific_locator_refs"] >= 45
+    assert manifest["summary"]["specific_locator_refs"] == manifest["summary"]["total_evidence_refs"]
+    assert all(not r["evidence_locator"].startswith("页面正文") for r in manifest["evidence"])
+
+
+def test_http_only_people_links_are_transparently_registered():
+    manifest = build()
+    people_rows = [r for r in manifest["evidence"] if ".people.com.cn/" in r["url"]]
+    assert len(people_rows) == 3
+    assert all(r["url"].startswith("http://") for r in people_rows)
+    assert all(r["access_status"] == "verified_exact_http_only" for r in people_rows)
 
 
 def test_key_primary_locators_and_corrected_paths():
