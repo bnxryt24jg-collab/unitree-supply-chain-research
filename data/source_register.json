@@ -1,0 +1,297 @@
+{
+  "as_of": "2026-09-20",
+  "verified_at": "2026-09-22",
+  "purpose": "对关系证据中的精确来源做独立登记；不把域名级入口自动升级为精确来源。",
+  "sources": [
+    {
+      "source_id": "src.qcc.relations.domain.20260901",
+      "publisher": "企查查公开关系摘要",
+      "source_type": "commercial_database",
+      "url": "https://www.qcc.com",
+      "published_date": "2026-09-01",
+      "verification_status": "registered_domain_only_access_limited",
+      "scope": "qcc_relation_summaries",
+      "note": "记录检索入口和抓取时间；不绕过登录、验证码、付费墙或访问控制。该入口不能替代可公开离线保存的公司公告或工商原文，使用时需按公开摘要和独立来源交叉复核。"
+    },
+    {
+      "source_id": "src.hkex.dobot.inquiry.20260622",
+      "publisher": "越疆科技 / 港交所海外监管公告",
+      "source_type": "primary_regulatory",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+      "published_date": "2026-06-22",
+      "verification_status": "verified_exact",
+      "scope": "peer_comparison",
+      "note": "越疆科技关于深圳证券交易所IPO审核问询函的回复，由港交所作为海外监管公告发布；用于同业和产品类别语境，不表述为港交所编制的行业报告，也不用于证明供应商关系。"
+    },
+    {
+      "source_id": "src.stcn.sangfor.20250129",
+      "publisher": "证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/1512508.html",
+      "published_date": "2025-01-29",
+      "verification_status": "verified_exact",
+      "scope": "sangfor_investor",
+      "note": "报道深信服作为有限合伙人参与的股权投资基金投资杭州宇树；关系仍按间接财务投资处理。"
+    },
+    {
+      "source_id": "src.stcn.zhongke.20250303",
+      "publisher": "人民财讯/证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/1559321.html",
+      "published_date": "2025-03-03",
+      "verification_status": "verified_exact",
+      "scope": "zhongke_investor",
+      "note": "中科创达互动平台口径：持有安创科技 6.7797%，安创科技持有宇树 0.2925%；同时明确暂无业务合作。"
+    },
+    {
+      "source_id": "src.stcn.jihua.20241226",
+      "publisher": "证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/1469072.html",
+      "published_date": "2024-12-26",
+      "verification_status": "verified_exact",
+      "scope": "jihua_investor",
+      "note": "吉华集团公告口径：通过容腾基金间接持有宇树约 0.02%，并明确不存在业务合作。"
+    },
+    {
+      "source_id": "src.stcn.zhongji.20250727",
+      "publisher": "人民财讯/证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/2763758.html",
+      "published_date": "2025-07-27",
+      "verification_status": "verified_exact",
+      "scope": "zhongji_investor",
+      "note": "中际旭创互动平台口径：公司未直接持有宇树，参投基金持有部分股份。"
+    },
+    {
+      "source_id": "src.eastmoney.chinamobile.20250712",
+      "publisher": "中国证券报·中证金牛座/东方财富",
+      "source_type": "authoritative_media",
+      "url": "https://finance.eastmoney.com/a/202507123455289035.html",
+      "published_date": "2025-07-12",
+      "verification_status": "verified_exact",
+      "scope": "chinamobile_customer",
+      "note": "报道中国移动旗下中移（杭州）采购项目中，宇树中标小尺寸人形机器人等标包，预算 4605 万元。"
+    },
+    {
+      "source_id": "src.people.stategrid.20260205",
+      "publisher": "人民网辽宁频道",
+      "source_type": "authoritative_media",
+      "url": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+      "published_date": "2026-02-05",
+      "verification_status": "verified_exact",
+      "scope": "stategrid_customer",
+      "note": "报道国家电网体系的铁岭供电公司使用宇树设备开展营业厅服务和变电站巡检；数据集将对象保留为国家电网体系并限定事实范围。"
+    },
+    {
+      "source_id": "src.chinatower.bid.20250801",
+      "publisher": "中国铁塔电子采购平台",
+      "source_type": "primary_procurement",
+      "url": "https://ebid.chinatowercom.cn/zgtt/gggs/003004/20250801/db82d15d-b1fd-4075-aea8-59cd40e31f80.html",
+      "published_date": "2025-08-01",
+      "verification_status": "verified_exact_boundary_only",
+      "scope": "chinatower_customer_boundary",
+      "note": "官方采购失败公示显示宇树参与四足机器人项目投标但响应被否；支持‘有采购接触’，不支持已成交客户关系，因此关系状态保留 unknown。"
+    },
+    {
+      "source_id": "src.eeo.huadian.20260115",
+      "publisher": "经济观察网",
+      "source_type": "authoritative_media",
+      "url": "https://www.eeo.com.cn/2026/0115/779669.shtml",
+      "published_date": "2026-01-15",
+      "verification_status": "verified_exact",
+      "scope": "huadian_customer",
+      "note": "报道宇树中标华电电力科学研究院宁夏无人值守场站人形巡检机器人项目。"
+    },
+    {
+      "source_id": "src.tongji.g1edu.20260627",
+      "publisher": "同济大学采购与招标管理办公室",
+      "source_type": "primary_procurement",
+      "url": "https://czb.tongji.edu.cn/sggl/cgw/news.jsp?lmbh=JJJGGG&wid=202606270138319108",
+      "published_date": "2026-06-27",
+      "verification_status": "verified_exact",
+      "scope": "tongji_customer",
+      "note": "同济大学 G1 EDU 定制版成交公告，记录采购预算19.5万元、成交17万元和成交供应商幻飞智控科技（上海）有限公司；支持终端使用，不证明宇树直接销售。"
+    },
+    {
+      "source_id": "src.cninfo.unitree.issuance.20260814",
+      "publisher": "巨潮资讯 / 宇树科技发行结果公告",
+      "source_type": "primary_regulatory",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472623.PDF",
+      "published_date": "2026-08-14",
+      "verification_status": "verified_exact",
+      "scope": "deepseek_investor",
+      "note": "官方发行结果公告，用于确认深度求索作为宇树 IPO 战略配售投资者；不把战略配售自动等同于控制权。"
+    },
+    {
+      "source_id": "src.cgtn.nvidia.20260601",
+      "publisher": "CGTN",
+      "source_type": "authoritative_media",
+      "url": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
+      "published_date": "2026-06-01",
+      "verification_status": "verified_exact",
+      "scope": "nvidia_partner",
+      "note": "报道 NVIDIA CEO 宣布与 Unitree 的 strategic partnership 及 Isaac GR00T 参考设计。"
+    },
+    {
+      "source_id": "src.unitree.h2plus.20260601",
+      "publisher": "宇树科技官方产品页",
+      "source_type": "primary_official",
+      "url": "https://www.unitree.com/cn/H2plus/",
+      "published_date": "2026-06-01",
+      "verification_status": "verified_exact",
+      "scope": "nvidia_partner",
+      "note": "官方产品页列出 Jetson Thor、Isaac GR00T、Isaac Sim/Lab 等整合信息；与 CGTN 共同支持产品级合作描述。"
+    },
+    {
+      "source_id": "src.cnstock.roadshow.deepseek.partner.20260807",
+      "publisher": "上海证券报·中国证券网 IPO 路演",
+      "source_type": "primary_official",
+      "url": "https://roadshow.cnstock.com/ipo/688836",
+      "published_date": "2026-08-07",
+      "verification_status": "verified_exact",
+      "scope": "deepseek_partner",
+      "note": "路演问答原始页面；王兴兴确认已与DeepSeek签署战略合作备忘录，并说明通用AI、具身智能与大模型三方面合作。"
+    },
+    {
+      "source_id": "src.people.tianjin.20260527",
+      "publisher": "人民网天津频道",
+      "source_type": "authoritative_media",
+      "url": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+      "published_date": "2026-05-27",
+      "verification_status": "verified_exact",
+      "scope": "tianjin_partner",
+      "note": "报道宇树与天津市政府、天津经开区签署战略合作协议。"
+    },
+    {
+      "source_id": "src.people.chengdu.20260725",
+      "publisher": "人民网四川频道",
+      "source_type": "authoritative_media",
+      "url": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+      "published_date": "2026-07-25",
+      "verification_status": "verified_exact",
+      "scope": "chengdu_partner",
+      "note": "报道成都市人民政府与宇树签署战略合作协议及合作方向。"
+    },
+    {
+      "source_id": "src.sina.changchun.20260903",
+      "publisher": "新浪财经（来源：机器人全球资讯）",
+      "source_type": "authoritative_media",
+      "url": "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml",
+      "published_date": "2026-09-03",
+      "verification_status": "verified_exact_secondary_only",
+      "scope": "changchun_partner",
+      "note": "精确报道净月高新区与宇树于 2026-08-25 签署战略合作协议；当前为媒体二级来源，未找到长春科技局的原始协议页面。"
+    },
+    {
+      "source_id": "src.21jingji.indirect_investors.20250129",
+      "publisher": "21财经综合",
+      "source_type": "authoritative_media",
+      "url": "https://m.21jingji.com/article/20250129/herald/d35bbf620322e56b277182246b4aa4ba.html",
+      "published_date": "2025-01-29",
+      "verification_status": "verified_exact",
+      "scope": "listed_indirect_investors",
+      "note": "综合报道列出深信服、中科创达、吉华集团、中际旭创等间接投资线索；作为媒体交叉证据使用，不能替代基金路径或工商穿透的逐条核验。"
+    },
+    {
+      "source_id": "src.21jingji.changsheng.20250222",
+      "publisher": "21经济网",
+      "source_type": "authoritative_media",
+      "url": "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html",
+      "published_date": "2025-02-22",
+      "verification_status": "verified_exact",
+      "scope": "longsheng_supplier",
+      "note": "报道长盛轴承与宇树签订合作协议并取得订单，同时披露机器人相关收入占比不足1%。"
+    },
+    {
+      "source_id": "src.stcn.langke.20241225",
+      "publisher": "证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/1467261.html",
+      "published_date": "2024-12-25",
+      "verification_status": "verified_exact",
+      "scope": "langke_investor_historical",
+      "note": "历史口径：朗科智能穿透后间接持股约0.0458%。"
+    },
+    {
+      "source_id": "src.stcn.langke.20260811",
+      "publisher": "人民财讯/证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/4070279.html",
+      "published_date": "2026-08-11",
+      "verification_status": "verified_exact",
+      "scope": "langke_investor_latest",
+      "note": "最新口径：截至2026-08-10，朗科智能穿透后间接持股约0.0379%；同时称与宇树暂无其他业务合作。"
+    },
+    {
+      "source_id": "src.stcn.kingfa.20250220",
+      "publisher": "证券时报",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/1535518.html",
+      "published_date": "2025-02-20",
+      "verification_status": "verified_exact",
+      "scope": "kingfa_investor",
+      "note": "披露金发科技经金石成长基金穿透持有宇树约0.42%；该证据支持投资关系，不支持供货关系。"
+    },
+    {
+      "source_id": "src.stcn.wolong.20250721",
+      "publisher": "证券时报·数据宝",
+      "source_type": "authoritative_media",
+      "url": "https://www.stcn.com/article/detail/2659309.html",
+      "published_date": "2025-07-21",
+      "verification_status": "verified_exact",
+      "scope": "wolong_investor",
+      "note": "披露卧龙电驱通过金石成长股权投资合伙企业间接持股宇树；另记载其与人形机器人创新中心存在合作。"
+    },
+    {
+      "source_id": "src.sina.kingfa.supplychain.20250217",
+      "publisher": "新浪财经产业链梳理",
+      "source_type": "industry_research",
+      "url": "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml",
+      "published_date": "2025-02-17",
+      "verification_status": "verified_exact_secondary_only",
+      "scope": "kingfa_supplier_inference",
+      "note": "二级产业链文章将金发科技列入机器人材料链条；仅支持‘存在供应可能’的推断，不支持宇树已确认采购或供应商事实。"
+    },
+    {
+      "source_id": "src.ifeng.wolong.20260615",
+      "publisher": "凤凰网财经",
+      "source_type": "authoritative_media",
+      "url": "https://finance.ifeng.com/c/8tzPjLIGAof",
+      "published_date": "2026-06-15",
+      "verification_status": "registered_existing_exact",
+      "scope": "wolong_supplier",
+      "note": "现有关系证据中的精确文章页；仍需与公司公告或一手披露交叉复核。"
+    },
+    {
+      "source_id": "src.xhby.wolong.20260201",
+      "publisher": "新华报业网",
+      "source_type": "authoritative_media",
+      "url": "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html",
+      "published_date": "2026-02-01",
+      "verification_status": "registered_existing_exact",
+      "scope": "wolong_supplier",
+      "note": "现有关系证据中的精确文章页；仍需与公司公告或一手披露交叉复核。"
+    },
+    {
+      "source_id": "src.cninfo.unitree.prospectus.20260525",
+      "publisher": "巨潮资讯 / 宇树科技招股说明书（上会稿）",
+      "source_type": "primary_regulatory",
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+      "published_date": "2026-05-25",
+      "verification_status": "verified_exact_but_named_supplier_limit",
+      "scope": "unitree_prospectus_context",
+      "note": "官方精确 PDF。第11页用于核对公司法定名称；第58–61页及第260页用于核对美团、红杉的持股路径和比例；第142页前五大原材料供应商使用匿名代号并列出其他公司，不能证明十家候选上市公司为供应商；第273页披露中移（杭州）重大销售合同。"
+    },
+    {
+      "source_id": "src.deepmind.mujoco_playground.20250115",
+      "publisher": "Google DeepMind GitHub",
+      "source_type": "primary_official",
+      "url": "https://github.com/google-deepmind/mujoco_playground",
+      "published_date": "2025-01-15",
+      "verification_status": "verified_exact",
+      "scope": "deepmind_technical_ecosystem",
+      "note": "官方开源项目页面显示 MuJoCo Playground 支持 Unitree G1 等平台；支持技术生态使用推断，不等于 Google DeepMind 与宇树存在官宣商业合作。"
+    }
+  ]
+}

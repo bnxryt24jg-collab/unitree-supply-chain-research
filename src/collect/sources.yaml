@@ -1,0 +1,189 @@
+# 来源登记表（声明式）。供 collect/fetch.py 与人工采集共用。
+# 每条记录：id / 名称 / 来源类型 / 用途 / robots 合规状态 / 采集方式
+meta:
+  subject: "宇树科技股份有限公司"
+  subject_id: "SH.688836"
+  as_of: "2026-09-20"
+  schema_ref: "SCHEMA.md"
+
+primary_sources:   # 一手 / 法定披露
+  - id: cninfo
+    name: "巨潮资讯网"
+    source_type: primary_regulatory
+    url: "https://www.cninfo.com.cn"
+    extracts: ["招股说明书", "年报", "半年报", "临时公告", "前五大供应商/客户", "关联交易"]
+    robots: "需采集前核验 robots.txt"
+    method: "官网检索 + PDF 快照"
+  - id: sse
+    name: "上海证券交易所"
+    source_type: primary_regulatory
+    url: "https://www.sse.com.cn"
+    extracts: ["上市公告书", "问询函及回复", "发行结果"]
+    robots: "需采集前核验 robots.txt"
+    method: "官网检索"
+  - id: gsxt
+    name: "国家企业信用信息公示系统"
+    source_type: primary_official
+    url: "https://www.gsxt.gov.cn"
+    extracts: ["工商登记", "股东", "对外投资"]
+    robots: "公开查询，不作批量抓取"
+    method: "人工查询（消歧/穿透底层）"
+  - id: hkex
+    name: "香港交易所披露易"
+    source_type: primary_regulatory
+    url: "https://www.hkexnews.hk"
+    extracts: ["港股标的公告(02498/09880)"]
+    robots: "需采集前核验 robots.txt"
+    method: "官网检索"
+  - id: ehdong
+    name: "上证e互动/互动易"
+    source_type: primary_official
+    url: "https://sns.sseinfo.com | http://irm.cninfo.com"
+    extracts: ["官方公开回复(业务细节补充)"]
+    robots: "公开查询"
+    method: "人工查询（重大以公告为准）"
+
+authoritative_media:  # 权威媒体 / 企业官方页面
+  - id: jj21
+    name: "21世纪经济报道"
+    source_type: authoritative_media
+    url: "https://www.21jingji.com"
+    extracts: ["供给关系核实(如收入占比<1%)"]
+    robots: "仅引摘要+出处，不整篇复制"
+    method: "人工查阅"
+  - id: stcn
+    name: "证券时报"
+    source_type: authoritative_media
+    url: "https://www.stcn.com"
+    extracts: ["间接持股", "产业基金穿透"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+  - id: caixin
+    name: "财新"
+    source_type: authoritative_media
+    url: "https://www.caixin.com"
+    extracts: ["订单/客户/合作"]
+    robots: "受限内容不抓取"
+    method: "人工查阅"
+  - id: cnstock
+    name: "上海证券报"
+    source_type: authoritative_media
+    url: "https://www.cnstock.com"
+    extracts: ["订单/合作"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+  - id: unitree_site
+    name: "宇树官网/官微"
+    source_type: primary_official
+    url: "https://www.unitree.com"
+    extracts: ["产品/合作伙伴自述(独立性降档)"]
+    robots: "公开页面"
+    method: "人工查阅（independence=70）"
+  - id: cgtn
+    name: "CGTN / 官方英文报道"
+    source_type: authoritative_media
+    url: "https://news.cgtn.com"
+    extracts: ["NVIDIA×宇树 战略合作（H2 Plus / Isaac GR00T 参考设计）"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+  - id: cs_com
+    name: "中国证券报·中证网"
+    source_type: authoritative_media
+    url: "https://www.cs.com.cn"
+    extracts: ["上市路演/战略合作（DeepSeek《战略合作备忘录》）"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+  - id: people_cn
+    name: "人民网（地方频道）"
+    source_type: authoritative_media
+    url: "https://www.people.com.cn"
+    extracts: ["政府战略合作（天津市/成都市）"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+  - id: cfi
+    name: "CFi.CN 财经"
+    source_type: general_media
+    url: "https://www1.cfi.net.cn"
+    extracts: ["股东阵容/产业资本（含 DeepSeek 股东身份）"]
+    robots: "仅引摘要+出处"
+    method: "人工查阅"
+
+government_official:  # 政府/开发区官方公告
+  - id: gov_sites
+    name: "地方政府/科技局官网"
+    source_type: primary_official
+    url: "http://kjj.changchun.gov.cn 等"
+    extracts: ["政府战略合作协议（如长春净月高新区）"]
+    robots: "官方公告，公开"
+    method: "官方公告查阅"
+
+commercial_db:  # 商业数据库
+  - id: qcc
+    name: "企查查"
+    source_type: commercial_database
+    url: "https://www.qcc.com"
+    extracts: ["关系图谱", "股权穿透", "招投标", "对外投资"]
+    robots: "严格按 robots/ToS；需登录细节页改用开放API或回退原始事实"
+    method: "公开摘要 + 开放平台API(授权)"
+  - id: tianyancha
+    name: "天眼查"
+    source_type: commercial_database
+    url: "https://www.tianyancha.com"
+    extracts: ["关系图谱/股权(交叉校验)"]
+    robots: "严格按 robots/ToS"
+    method: "公开摘要"
+  - id: wind
+    name: "Wind/iFinD/同花顺i问财"
+    source_type: commercial_database
+    url: ""
+    extracts: ["财务与关系数据(F10二次整理)"]
+    robots: "以授权终端为准"
+    method: "终端查询（冲突以巨潮为准）"
+
+research:  # 券商/行业研报
+  - id: broker_report
+    name: "券商研报/东方财富研报频道"
+    source_type: industry_research
+    url: "https://data.eastmoney.com/report"
+    extracts: ["宇树产业链/人形机器人供应链梳理"]
+    robots: "仅引框架与名单"
+    method: "人工查阅"
+  - id: industry_assoc
+    name: "行业协会(中国机器人产业联盟等)"
+    source_type: industry_research
+    url: ""
+    extracts: ["竞争格局/市场规模"]
+    robots: "公开白皮书"
+    method: "人工查阅"
+
+public_records:  # 公开招投标 / 海关 (补充 supplier/customer 覆盖)
+  - id: cebpubservice
+    name: "中国招标投标公共服务平台"
+    source_type: primary_procurement
+    url: "https://www.cebpubservice.com"
+    extracts: ["招投标公告(供应商/客户公开中标)"]
+    robots: "公开列表页，仅低频索引抓取"
+    method: "公开查询/合规fetcher"
+  - id: ggzy
+    name: "全国公共资源交易平台"
+    source_type: primary_procurement
+    url: "https://www.ggzy.gov.cn"
+    extracts: ["政府采购/工程招投标(客户侧)"]
+    robots: "公开列表页"
+    method: "公开查询"
+  - id: customs
+    name: "海关总署 / 海关进出口数据"
+    source_type: primary_official
+    url: "http://www.customs.gov.cn"
+    extracts: ["HS编码进出口(原材料采购地/出口流向)"]
+    robots: "公开统计，不批量抓取明细"
+    method: "人工查询统计"
+
+compliance:
+  robots_first: true
+  no_login_bypass: true
+  no_paywall_bypass: true
+  min_interval_seconds: 1
+  no_pii: true
+  copyright: "引用片段+标注locator，不整篇复制"
+  use: "仅研究展示，不转售原始数据"

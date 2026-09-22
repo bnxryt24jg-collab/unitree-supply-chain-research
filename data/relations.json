@@ -1,0 +1,1747 @@
+{
+  "as_of": "2026-09-20",
+  "count": 41,
+  "relations": [
+    {
+      "relationship_id": "r-green-harmonic",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.688017",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "苏州绿的谐波传动科技股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-mingzhi",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.603728",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "上海鸣志电器股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-orbbec",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.688322",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "奥比中光科技集团股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-beite",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.603009",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "上海北特科技集团股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-bester",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300580",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "无锡贝斯特精机股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-meihu",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.603319",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "湖南美湖智造股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-ruixin",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.603893",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "瑞芯微电子股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-nasda",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.002180",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "纳思达股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-robotec",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "HK.02498",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "深圳市速腾聚创科技有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-wolan",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.002245",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "江苏蔚蓝锂芯股份有限公司曾被列为宇树供应链候选，但招股书p.142未披露该名称，当前不能确认供货关系。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.142，表‘报告期内前五名原材料供应商采购情况’；供应商以匿名代号及其他公司列示，未出现本候选公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#供应商"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 100.0,
+        "weighted_score": 63.0,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-wolong-sup",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.600580",
+      "relation_type": "supplier",
+      "relation_subtype": "confirmed_supplier",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-06-15",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "两家财经媒体报道卧龙电驱向宇树提供无框力矩电机；公开资料未披露采购占比，因此列为补充关系。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "凤凰网财经",
+          "url": "https://finance.ifeng.com/c/8tzPjLIGAof",
+          "published_date": "2026-06-15",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_wolong_supplier.md#关键事实",
+          "origin_id": "https://finance.ifeng.com/c/8tzPjLIGAof",
+          "note": "本地研究摘要：data/raw/media_wolong_supplier.md#关键事实"
+        },
+        {
+          "source_type": "authoritative_media",
+          "source_name": "新华报业网",
+          "url": "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html",
+          "published_date": "2026-02-01",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_wolong_supplier.md#关键事实",
+          "origin_id": "https://www.xhby.net/content/s699aeb4ce4b0d38d54d20ee9.html",
+          "note": "本地研究摘要：data/raw/media_wolong_supplier.md#关键事实"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 91.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 85.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 91.2,
+        "applied_caps": [],
+        "final_score": 91.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-changsheng",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300718",
+      "relation_type": "supplier",
+      "relation_subtype": "confirmed_supplier",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2025-02-18",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "长盛轴承向宇树供货，但机器人相关收入占比不足1%",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html",
+          "published_date": "2025-02-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_supplier_weak.md#长盛轴承",
+          "origin_id": "https://www.21jingji.com/article/20250222/7db4c71ce3ab393b4333183712860fee.html",
+          "note": "本地研究摘要：data/raw/media_supplier_weak.md#长盛轴承"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 82.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-kingfa-sup",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.600143",
+      "relation_type": "supplier",
+      "relation_subtype": "candidate_supplier",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "金发科技被产业链资料列为潜在材料供应方，但未找到可直接证明其向宇树供货的公开证据。",
+      "evidence": [
+        {
+          "source_type": "industry_research",
+          "source_name": "新浪财经产业链梳理",
+          "url": "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml",
+          "published_date": "2025-02-17",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_supplier_weak.md#金发科技-二级梳理",
+          "origin_id": "https://finance.sina.com.cn/stock/hyyj/2025-02-17/doc-inekufee4035232.shtml",
+          "note": "本地研究摘要：data/raw/media_supplier_weak.md#金发科技-二级梳理"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 55.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 80.0,
+        "weighted_score": 49.8,
+        "applied_caps": [
+          "unsupported_claim_max_40",
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-chinamobile",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.600941",
+      "relation_type": "customer",
+      "relation_subtype": "parent_group",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": "2025-07-11",
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树招股书披露与中移（杭州）信息技术有限公司的重大销售合同，不超过3970.35万元；本关系映射至上市母公司中国移动，因此标记为间接。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "中国证券报·中证金牛座/东方财富",
+          "url": "https://finance.eastmoney.com/a/202507123455289035.html",
+          "published_date": "2025-07-12",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#中国移动",
+          "origin_id": "https://finance.eastmoney.com/a/202507123455289035.html",
+          "note": "本地研究摘要：data/raw/caixin_customer.md#中国移动"
+        },
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.273，重大销售合同表：中移（杭州）信息技术有限公司，合同金额不超过3,970.35万元",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#客户"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 87.2,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 85.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 87.2,
+        "applied_caps": [],
+        "final_score": 87.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-stategrid",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "STATE.国家电网",
+      "relation_type": "customer",
+      "relation_subtype": "end_user",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": "2026-01-01",
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "人民网报道国网铁岭供电公司使用宇树机器人；证据支持终端使用，不证明国家电网总部直接采购。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民网辽宁频道",
+          "url": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+          "published_date": "2026-02-05",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#国家电网体系",
+          "origin_id": "https://ln.people.com.cn/n2/2026/0205/c400024-41494376.html",
+          "note": "本地研究摘要：data/raw/caixin_customer.md#国家电网体系"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 75.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-chinatelecom-tower",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "HK.00788",
+      "relation_type": "customer",
+      "relation_subtype": "rejected_bid",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "中国铁塔采购项目中宇树响应被否，不能据此认定中国铁塔为宇树客户。",
+      "evidence": [
+        {
+          "source_type": "primary_procurement",
+          "source_name": "中国铁塔电子采购平台",
+          "url": "https://ebid.chinatowercom.cn/zgtt/gggs/003004/20250801/db82d15d-b1fd-4075-aea8-59cd40e31f80.html",
+          "published_date": "2025-08-01",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "采购结果公告：宇树科技响应被否决",
+          "origin_id": "https://ebid.chinatowercom.cn/zgtt/gggs/003004/20250801/db82d15d-b1fd-4075-aea8-59cd40e31f80.html",
+          "note": "本地研究摘要：data/raw/caixin_customer.md#中国铁塔-投标边界"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 95.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 80.0,
+        "weighted_score": 59.8,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-huadian",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "STATE.华电",
+      "relation_type": "customer",
+      "relation_subtype": "direct_buyer",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-01-15",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "媒体报道华电电力科学研究院相关巡检机器人项目由宇树中标；尚缺采购平台一手结果公告。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "经济观察网",
+          "url": "https://www.eeo.com.cn/2026/0115/779669.shtml",
+          "published_date": "2026-01-15",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/caixin_customer.md#华电",
+          "origin_id": "https://www.eeo.com.cn/2026/0115/779669.shtml",
+          "note": "本地研究摘要：data/raw/caixin_customer.md#华电"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 84.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-tongji",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "EDU.同济大学",
+      "relation_type": "customer",
+      "relation_subtype": "end_user",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-06-27",
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "同济大学成交公告显示采购一台宇树G1 EDU，成交供应商为幻飞智控科技（上海）有限公司；同济为终端使用单位而非已证实的直接买方。",
+      "evidence": [
+        {
+          "source_type": "primary_procurement",
+          "source_name": "同济大学采购与招标管理办公室",
+          "url": "https://czb.tongji.edu.cn/sggl/cgw/news.jsp?lmbh=JJJGGG&wid=202606270138319108",
+          "published_date": "2026-06-27",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "成交公告正文：宇树G1 EDU 1台；预算19.5万元；成交17万元；供应商为幻飞智控科技（上海）有限公司",
+          "origin_id": "https://czb.tongji.edu.cn/sggl/cgw/news.jsp?lmbh=JJJGGG&wid=202606270138319108",
+          "note": "本地研究摘要：data/raw/caixin_customer.md#高校科研客户-G1-EDU"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 88.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 95.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 88.0,
+        "applied_caps": [],
+        "final_score": 88.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-langke-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300543",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "朗科智能经产业基金间接持有宇树约0.0379%股权（2026-08-10口径；历史口径约0.0458%）",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "证券时报",
+          "url": "https://www.stcn.com/article/detail/1467261.html",
+          "published_date": "2024-12-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-历史口径",
+          "origin_id": "https://www.stcn.com/article/detail/1467261.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-历史口径"
+        },
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民财讯/证券时报",
+          "url": "https://www.stcn.com/article/detail/4070279.html",
+          "published_date": "2026-08-11",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-最新口径",
+          "origin_id": "https://www.stcn.com/article/detail/4070279.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#朗科智能-最新口径"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 82.2,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 85.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 82.2,
+        "applied_caps": [],
+        "final_score": 82.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-kingfa-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.600143",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "inference",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "medium",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "金发科技持有金石成长基金9.15%份额，该基金持有宇树4.62%；简单乘算约0.42%，实际权益仍受基金结构影响。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "证券时报",
+          "url": "https://www.stcn.com/article/detail/1535518.html",
+          "published_date": "2025-02-20",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#金发科技",
+          "origin_id": "https://www.stcn.com/article/detail/1535518.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#金发科技"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-wolong-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.600580",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "证券时报报道卧龙电驱通过金石基金间接投资宇树；公开报道未披露其最终穿透持股比例。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "证券时报·数据宝",
+          "url": "https://www.stcn.com/article/detail/2659309.html",
+          "published_date": "2025-07-21",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#卧龙电驱",
+          "origin_id": "https://www.stcn.com/article/detail/2659309.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#卧龙电驱"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-sangfor-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300454",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "证券时报报道深信服作为基金出资人间接投资宇树；基金持有宇树0.6279%，但深信服最终穿透比例未披露。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "证券时报",
+          "url": "https://www.stcn.com/article/detail/1512508.html",
+          "published_date": "2025-01-29",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#深信服",
+          "origin_id": "https://www.stcn.com/article/detail/1512508.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#深信服"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-zhongke-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300496",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "inference",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "medium",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "中科创达持有相关基金6.7797%份额，该基金持有宇树0.2925%；按简单乘算对应约0.0198%，实际权益仍受基金结构影响。",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民财讯/证券时报",
+          "url": "https://www.stcn.com/article/detail/1559321.html",
+          "published_date": "2025-03-03",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#中科创达",
+          "origin_id": "https://www.stcn.com/article/detail/1559321.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#中科创达"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": true
+    },
+    {
+      "relationship_id": "r-jihua-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SH.603980",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "吉华集团经容腾基金间接持有宇树约0.02%（财务投资，暂无业务合作）",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "证券时报",
+          "url": "https://www.stcn.com/article/detail/1469072.html",
+          "published_date": "2024-12-26",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#吉华集团",
+          "origin_id": "https://www.stcn.com/article/detail/1469072.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#吉华集团"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-zhongji-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "SZ.300308",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "indirect",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "中际旭创经基金间接持有宇树（财务投资）",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民财讯/证券时报",
+          "url": "https://www.stcn.com/article/detail/2763758.html",
+          "published_date": "2025-07-27",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/media_investor_indirect.md#中际旭创",
+          "origin_id": "https://www.stcn.com/article/detail/2763758.html",
+          "note": "本地研究摘要：data/raw/media_investor_indirect.md#中际旭创"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 70.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 80.0,
+        "weighted_score": 73.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-sequoia-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.红杉中国",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "direct_shareholder",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "招股书将宁波红杉与厦门雅恒合称“红杉中国”；二者为一致行动人，发行前合计直接持有宇树7.1149%股份",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF pp.60–61，红杉中国相关股东及发行前合计持股7.1149%",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#股东-红杉中国"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-meituan-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "HK.03690",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "fund_lookthrough",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": true,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "招股书披露Meituan/美团（03690.HK）发行前间接持有宇树7.6114%股份",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF pp.58–59、p.260，美团上市主体间接持股路径及7.6114%口径",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#股东-美团"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-deepseek-inv",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.DeepSeek",
+      "relation_type": "investor_or_investee",
+      "relation_subtype": "strategic_placement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-14",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "发行结果公告显示DeepSeek直接获配宇树首次公开发行战略配售股份933,399股，占本次发行2.31%，锁定期36个月。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技首次公开发行股票并在科创板上市发行结果公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472623.PDF",
+          "published_date": "2026-08-14",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF p.3，战略配售投资者获配结果表：深度求索933,399股、2.31%、锁定36个月",
+          "origin_id": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472623.PDF",
+          "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepseek-investor"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-ubtech-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "HK.09880",
+      "relation_type": "peer",
+      "relation_subtype": "financial_comparable",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "优必选为宇树国内人形机器人直接竞品（已量产交付）",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）竞争格局",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF‘市场竞争格局’章节；全文检索对应公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#竞争对手"
+        },
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 96.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 85.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 96.2,
+        "applied_caps": [],
+        "final_score": 96.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-tesla-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "US.TSLA",
+      "relation_type": "peer",
+      "relation_subtype": "technology_benchmark",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "特斯拉 Optimus 为宇树海外人形机器人对标",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "宇树科技招股说明书（上会稿）竞争格局",
+          "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "published_date": "2026-05-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF‘市场竞争格局’章节；全文检索对应公司名称",
+          "origin_id": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-25/3d7fc0538abe281340a95c9c77a90525.pdf",
+          "note": "本地研究摘要：data/raw/cninfo_unitree_prospectus.md#竞争对手"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-dobot-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "HK.02432",
+      "relation_type": "peer",
+      "relation_subtype": "financial_comparable",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "越疆科技（02432.HK）是协作机器人上市公司，作为财务可比公司纳入，而非笼统标作未上市人形机器人企业。",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-yunshen-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.云深处",
+      "relation_type": "peer",
+      "relation_subtype": "product_competitor",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "云深处为四足/具身智能竞品",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-leju-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.乐聚",
+      "relation_type": "peer",
+      "relation_subtype": "product_competitor",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "乐聚为华为合作人形机器人竞品",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-zhiyuan-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.智元",
+      "relation_type": "peer",
+      "relation_subtype": "product_competitor",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "智元机器人为人形机器人新锐竞品",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-figure-peer",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.Figure",
+      "relation_type": "peer",
+      "relation_subtype": "technology_benchmark",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "Figure AI 为海外人形机器人对标",
+      "evidence": [
+        {
+          "source_type": "primary_regulatory",
+          "source_name": "越疆科技关于深圳证券交易所IPO审核问询函的回复（港交所海外监管公告）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "published_date": "2026-06-22",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "PDF同业及竞争格局相关章节；按公司名称检索",
+          "origin_id": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201645_c.pdf",
+          "note": "本地研究摘要：data/raw/broker_peer_supplychain.md#peer"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 89.2,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 100.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 89.2,
+        "applied_caps": [],
+        "final_score": 89.2
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-nvidia-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "NVDA",
+      "relation_type": "partner",
+      "relation_subtype": "formal_agreement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-06-01",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树与 NVIDIA 达成战略合作，联合推出 Isaac GR00T 参考设计人形机器人 H2 Plus（宇树本体 + 英伟达 Jetson Thor 算力 + GR00T 软件栈）",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "CGTN 报道",
+          "url": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
+          "published_date": "2026-06-01",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia",
+          "origin_id": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
+          "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia"
+        },
+        {
+          "source_type": "primary_official",
+          "source_name": "宇树 H2 Plus 官方产品页",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "published_date": "2026-06-01",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia",
+          "origin_id": "https://www.unitree.com/cn/H2plus/",
+          "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#nvidia"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 95.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 95.0,
+        "independent_corroboration": 85.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 95.0,
+        "applied_caps": [],
+        "final_score": 95.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-deepseek-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.DeepSeek",
+      "relation_type": "partner",
+      "relation_subtype": "formal_agreement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-07",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树上市路演中，王兴兴确认公司已与DeepSeek签署战略合作备忘录，合作覆盖通用AI、具身智能与大模型。",
+      "evidence": [
+        {
+          "source_type": "primary_official",
+          "source_name": "上海证券报·中国证券网 IPO 路演",
+          "url": "https://roadshow.cnstock.com/ipo/688836",
+          "published_date": "2026-08-07",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "路演问答：检索‘公司已与DeepSeek签署战略合作备忘录’",
+          "origin_id": "https://roadshow.cnstock.com/ipo/688836",
+          "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepseek"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 88.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 95.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 88.0,
+        "applied_caps": [],
+        "final_score": 88.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-tianjin-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "GOV.天津市",
+      "relation_type": "partner",
+      "relation_subtype": "government_agreement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-05-27",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树与天津市/天津经开区签署战略合作协议，聚焦具身智能场景落地（安防巡检、消防救援、工业运维等）",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民网天津频道",
+          "url": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+          "published_date": "2026-05-27",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#tianjin",
+          "origin_id": "https://tj.people.com.cn/n2/2026/0527/c375366-41593167.html",
+          "note": "本地研究摘要：data/raw/partner_government.md#tianjin"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 84.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-chengdu-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "GOV.成都市",
+      "relation_type": "partner",
+      "relation_subtype": "government_agreement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-07-24",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树与成都市签署战略合作协议，在具身智能研发、场景创新、数据采集、产教融合等方面全方位合作",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "人民网四川频道",
+          "url": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+          "published_date": "2026-07-25",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#chengdu",
+          "origin_id": "https://sc.people.com.cn/n2/2026/0725/c345167-41649738.html",
+          "note": "本地研究摘要：data/raw/partner_government.md#chengdu"
+        }
+      ],
+      "relevance_tier": "core",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 84.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-changchun-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "GOV.长春净月高新区",
+      "relation_type": "partner",
+      "relation_subtype": "government_agreement",
+      "status": "fact",
+      "claim_support": "direct",
+      "effective_start": "2026-08-25",
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "low",
+      "entity_direction_certainty": 95.0,
+      "natural_statement": "宇树与长春净月高新区签署战略合作协议，共建 AI 教育示范区、具身智能数据采集中心等",
+      "evidence": [
+        {
+          "source_type": "authoritative_media",
+          "source_name": "新浪财经（来源：机器人全球资讯）",
+          "url": "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml",
+          "published_date": "2026-09-03",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_government.md#changchun",
+          "origin_id": "https://finance.sina.com.cn/wm/2026-09-03/doc-iniqnyae1083016.shtml",
+          "note": "本地研究摘要：data/raw/partner_government.md#changchun"
+        }
+      ],
+      "relevance_tier": "supplementary",
+      "confidence_score": 70.0,
+      "confidence_breakdown": {
+        "direct_support": 100.0,
+        "source_authority": 80.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 95.0,
+        "timeliness": 100.0,
+        "weighted_score": 84.2,
+        "applied_caps": [
+          "single_secondary_origin_max_70"
+        ],
+        "final_score": 70.0
+      },
+      "needs_human_validation": false
+    },
+    {
+      "relationship_id": "r-deepmind-partner",
+      "subject_entity_id": "SH.688836",
+      "object_entity_id": "UNLISTED.GoogleDeepMind",
+      "relation_type": "partner",
+      "relation_subtype": "ecosystem_compatibility",
+      "status": "unknown",
+      "claim_support": "unsupported",
+      "effective_start": null,
+      "effective_end": null,
+      "is_indirect": false,
+      "uncertainty": "high",
+      "entity_direction_certainty": 80.0,
+      "natural_statement": "Google DeepMind 的 MuJoCo Playground 支持 Unitree 机型，证明生态兼容，不足以证明双方存在商业合作关系。",
+      "evidence": [
+        {
+          "source_type": "primary_official",
+          "source_name": "Google DeepMind GitHub",
+          "url": "https://github.com/google-deepmind/mujoco_playground",
+          "published_date": "2025-01-15",
+          "retrieved_date": "2026-09-22",
+          "evidence_locator": "页面正文；本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepmind-official",
+          "origin_id": "https://github.com/google-deepmind/mujoco_playground",
+          "note": "本地研究摘要：data/raw/partner_nvidia_deepseek.md#deepmind-official"
+        }
+      ],
+      "relevance_tier": "candidate",
+      "confidence_score": 40.0,
+      "confidence_breakdown": {
+        "direct_support": 20.0,
+        "source_authority": 95.0,
+        "independent_corroboration": 50.0,
+        "entity_direction_certainty": 80.0,
+        "timeliness": 80.0,
+        "weighted_score": 59.8,
+        "applied_caps": [
+          "unsupported_claim_max_40"
+        ],
+        "final_score": 40.0
+      },
+      "needs_human_validation": true
+    }
+  ]
+}
