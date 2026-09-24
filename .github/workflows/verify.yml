@@ -27,7 +27,5 @@ jobs:
         run: python src/validate/check_consistency.py
       - name: Run tests
         run: python -m pytest -q
-      - name: Rebuild graph
-        run: python src/build_graph_html.py
       - name: Fail on generated-file drift
-        run: git diff --exit-code -- data/entities.json data/relations.json data/evidence_manifest.json graph.html
+        run: git diff --exit-code -- data/entities.json data/relations.json data/evidence_manifest.json

@@ -4,7 +4,7 @@
 
 [![verify](https://github.com/bnxryt24jg-collab/unitree-supply-chain-research/actions/workflows/verify.yml/badge.svg)](https://github.com/bnxryt24jg-collab/unitree-supply-chain-research/actions/workflows/verify.yml)
 
-[离线交互式关系图（下载后打开）](./graph.html) · [关系数据](./data/relations.json) · [证据清单](./data/evidence_manifest.json) · [数据口径](./SCHEMA.md)
+[关系数据](./data/relations.json) · [证据清单](./data/evidence_manifest.json) · [数据口径](./SCHEMA.md)
 
 ## 结论摘要
 
@@ -16,7 +16,7 @@
 
 2025 年机械类、电子类、电气类原材料采购占比分别为 **50.71%、22.40%、22.23%**，前五大原材料供应商采购占比合计 **22.54%**（招股书 pp.141–142）。但 p.142 的前五大供应商使用匿名代号，另列出的公司也不包含项目早期整理的绿的谐波、鸣志电器、奥比中光等十家公司。
 
-因此，这十条记录保留为 `candidate`，置信度上限 40，默认不在关系图和查询结果中作为已确认供应商展示。这个处理比用“招股书是一手来源”替代“招股书是否出现该公司”的判断更重要。
+因此，这十条记录保留为 `candidate`，置信度上限 40，默认不在查询结果中作为已确认供应商展示。这个处理比用“招股书是一手来源”替代“招股书是否出现该公司”的判断更重要。
 
 ### 3. 客户关系需要区分直接买方、上市母公司和终端使用单位
 
@@ -84,10 +84,9 @@ python src/build_dataset.py
 python src/build_evidence_manifest.py
 python src/validate/check_consistency.py
 python -m pytest -q
-python src/build_graph_html.py
 ```
 
-以上命令会确定性重建 JSON、证据清单和 `graph.html`。CI 会在 Python 3.11、3.12、3.13 下执行相同步骤并检查生成物漂移。
+以上命令会确定性重建 JSON 和证据清单。CI 会在 Python 3.11、3.12、3.13 下执行相同步骤并检查生成物漂移。
 
 ### CLI
 
@@ -129,7 +128,6 @@ src/cli.py                  可脚本化 JSON CLI
 src/api.py                  FastAPI HTTP JSON API
 src/validate/               数据一致性检查
 tests/                      评分闸门、边界案例、查询和端到端测试
-graph.html                  离线交互式关系图
 ```
 
 ## 限制与下一步
