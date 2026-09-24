@@ -6,8 +6,6 @@
 
 [离线交互式关系图（下载后打开）](./graph.html) · [关系数据](./data/relations.json) · [证据清单](./data/evidence_manifest.json) · [数据口径](./SCHEMA.md)
 
-![关系图预览](./graph_preview.png)
-
 ## 结论摘要
 
 ### 1. 收入结构已经从四足机器人扩展到人形机器人
